@@ -1,6 +1,6 @@
 <?php
 
-require_once '../PHPMailer/PHPMailerAutoload.php';
+require_once 'PHPMailer/PHPMailerAutoload.php';
 
 $to = "rvtiwari98@gmail.com";
 $msg = "Waoooooo !! You got this mail.";
