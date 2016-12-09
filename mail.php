@@ -19,7 +19,7 @@ function sendEmail($to, $sub, $msg) {
     $mail->IsHTML(true);
     $mail->Username = "info@gmail.com"; //sender mail id
     $mail->Password = "**************"; // sender mail pwd
-    $mail->SetFrom("info@gmail.com");
+    $mail->SetFrom("info@gmail.com","From Name");
     $mail->Subject = $sub;
     $mail->Body = $msg;
     $mail->AddAddress($to);
